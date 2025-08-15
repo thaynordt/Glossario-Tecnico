@@ -1,0 +1,153 @@
+body{
+    background-color: #F2E8CF;
+    color: dimgrey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav-bar{
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  #A7C957 ;
+    padding: 10px 20px;
+    
+}
+
+.menu{
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: background-color 0.3s ease; /
+}
+
+.menu ul li a:hover{
+    color: #143601;
+}
+
+.menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    text-align: center;
+}
+
+.menu ul li{
+    display: inline-block;
+    margin: 0 10px;
+    text-align: right;
+    font-family:'Times New Roman', Times, serif
+    align-items center;
+
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color:#6A994E;
+    width: 90%;
+    margin-left: 10px;
+}
+
+.separador{
+    color: #6A994E;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.fundo{
+    background-color: #CFDF8C;
+    color: #F2E8CF;
+    height: 100%;
+    padding: 40px 21px;
+   text-align: center;
+   margin-top: 10px;
+
+}
+
+.bemhtml{
+    color: #B185DB;
+}
+
+.cards-container {
+ display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+
+}
+
+.c-card {
+background-color: #dac3e8;
+  border-radius: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  color: #b2cb7a;
+  flex: 1 1 220px;
+  max-width: 250px;
+  width: 100%;
+  margin-top: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: #C1D583 2px solid;
+}
+
+.c-card:hover{
+    transform: translateY(-5px); 
+}
+
+.c-card img {
+   width: 100%;
+  height: auto;
+  display: block;
+  max-height: 150px; /* opcional: limite de altura */
+  object-fit: contain; /* ou 'cover' */
+}
+
+.c-card h2 {
+ font-size: 24px;
+  margin: 10px 0;
+  color: #B2CB7A;
+}
+
+.c-card p {
+  font-size: 14px;    
+  color: #fff;
+}
+
+.c-card code {
+  font-size: 11px;
+  color: #B185DB;
+}
+
+.icone-midias {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  color: #ffffff;  
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.icone-midias:hover {
+  transform: scale(1.2);   
+}
+
+.rodape{
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#b391c8 ;
+    margin-top: 2%;
+    text-align: center;
+}

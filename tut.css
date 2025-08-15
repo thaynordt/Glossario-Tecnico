@@ -1,0 +1,156 @@
+body {
+   background-color: #F2E8CF;
+    color: dimgrey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav-bar{
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  #A7C957 ;
+    padding: 10px 20px;
+    
+}
+
+/* .logo img{
+    height: 9vh;
+} */
+
+.menu{
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: background-color 0.3s ease; /* Adiciona uma transição suave */
+}
+
+.menu ul li a:hover{
+    color: #143601;
+}
+
+.menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    text-align: center;
+}
+
+.menu ul li{
+    display: inline-block;
+    margin: 0 10px;
+    text-align: right;
+    font-family:'Times New Roman', Times, serif
+    align-items center;
+
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color:#6A994E;
+    width: 90%;
+    margin-left: 10px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.tecna-lado {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.tecna-lado img {
+  width: 120px;
+  height: auto;
+}
+
+.balao-lado {
+  background-color: #fef9ef;
+  border: 2px solid #c6b0e1;
+  padding: 15px;
+  border-radius: 10px;
+  color: #686868;
+  box-shadow: 2px 2px 8px rgba(32, 28, 28, 0.282);
+  max-width: 600px;
+  font-size: 16px;
+  position: relative;
+}
+
+/* setinha do balão */
+.balao-lado::before {
+  content: '';
+  position: absolute;
+  top: 20px;
+  left: -15px;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 15px solid #fef9ef;
+}
+
+.fundo2{
+    background-color: #CFDF8C;
+    color: #ffffff;
+    height: 100%;
+    padding: 40px 21px;
+   text-align: center;
+   margin-top: 10px;
+     margin-bottom: 40px;
+}
+
+.bemvindoo{
+    color: #BD68EE;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.video-box {
+  display: flex;
+  background-color: #fef9ef;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #ab51e373;
+}
+
+video {
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.descricao {
+  max-width: 400px;
+}
+
+.descricao h2 {
+  margin-top: 0;
+  color: #BD68EE;
+}
+
+.descricao p {
+  color: #6f6f6f;
+}
+
+.atualizacoes{
+  color: #ab8ad4;
+  text-align: center;
+}
+
+.rodape{
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#b391c8 ;
+    margin-top: 2%;
+    text-align: center;
+}

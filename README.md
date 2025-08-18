@@ -6,7 +6,7 @@ Este repositório foi criado para servir como **suporte e auxílio** no entendim
 
 ---
 
-## 🔍 Objetivo
+## Objetivo
 
 Este glossário tem como objetivo:
 
@@ -17,17 +17,17 @@ Este glossário tem como objetivo:
 
 ---
 
-## 📖 Conteúdo
+## Conteúdo
 
 Neste repositório, você encontrará:
 
-- ✅ Termos organizados.
-- ✅ Definições claras e objetivas.
-- ✅ Exemplos e contextos de uso (quando aplicável).
+- Termos organizados.
+- Definições claras e objetivas.
+- Exemplos e contextos de uso (quando aplicável).
 
 ---
 
-## 🧑‍💻 Público-alvo
+## Público-alvo
 
 Este projeto é útil para:
 
